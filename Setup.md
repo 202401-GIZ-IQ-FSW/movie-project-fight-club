@@ -43,7 +43,7 @@ Create a new file called `.prettierrc.js` in the root folder and put the followi
 module.exports = {
   semi: false,
   singleQuote: false, // Do you want to use double or single quotations?
-  trailingComma: 'all',
+  trailingComma: "all",
 }
 ```
 
@@ -61,4 +61,3 @@ Add the following to `package.json` in the script property
 ### 3. Finalize
 
 Now run `npm run dev` your project should be ready.
-
