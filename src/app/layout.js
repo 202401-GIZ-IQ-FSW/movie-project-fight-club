@@ -1,6 +1,6 @@
 // layout.js
 import { Inter } from "next/font/google";
-import Navbar from './components/Navbar';
+import Navbar from '@/components/Navbar';
 
 
 const interFont = Inter({ subsets: ["latin"] });
