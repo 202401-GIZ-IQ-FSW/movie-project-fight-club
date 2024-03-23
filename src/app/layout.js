@@ -1,9 +1,12 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import SearchBox from "@/components/SearchBox";
-const inter = Inter({ subsets: ["latin"] });
 
+
+import SearchBox from "@/components/SearchBox";
+
+
+const inter = Inter({ subsets: ["latin"] });
+import Header from "@/components/Header";
 export const metadata = {
   title: "Movie Project",
   description: "Movie database clone",
