@@ -21,4 +21,4 @@ export default async function Home({ searchParams }) {
       <Results results={results} />
     </div>
   );
-}np
+}
