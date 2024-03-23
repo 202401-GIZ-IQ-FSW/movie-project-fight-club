@@ -3,6 +3,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
 export const metadata = {
   title: "Movie Project",
   description: "Movie database clone",
@@ -12,7 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}
-      <Header/>
+      <Header>
+     </Header>
+     <Navbar></Navbar>
       </body>
     </html>
   );
