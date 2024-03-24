@@ -1,32 +1,23 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-
-
-import SearchBox from "@/components/SearchBox";
-
+import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
-import Header from "@/components/Header";
-import Navbar from "@/components/Navbar";
-import Providers from "../components/Providers";
+
 export const metadata = {
-  title: "Movie Project",
+  title: "Fight Club",
   description: "Movie database clone",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/movieIcon.svg" />
+      </head>
       <body className={inter.className}>
-       
-       <Providers>
-       <Header />
-        <Navbar></Navbar>
-        <SearchBox />
+        <Header />
         {children}
-       </Providers>
-       
-
       </body>
     </html>
   );
