@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 
 export default async function MoviePage({ params }) {
-  //async for server side
   const movieId = params.id;
 
   const res = await fetch(
@@ -24,7 +23,7 @@ export default async function MoviePage({ params }) {
           layout="fill"
           objectFit="cover"
         ></Image>
-        <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-100"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-[#323232] to-transparent opacity-100"></div>
       </div>
 
       <div className="pr-20 pl-20 pt-10 bg-opacity-75 rounded-lg flex flex-col mt-96 relative text-[#d5d5d5]  ">

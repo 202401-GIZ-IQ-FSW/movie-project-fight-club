@@ -10,7 +10,7 @@ export default function NavbarItem({ title, param, Icon }) {
   return (
     <>
       <Link
-        className={`hover:text-[#03b57b] text-[#b6b6b6] ${
+        className={`uppercase hidden sm:inline text-sm hover:text-[#03b57b] text-[#b6b6b6] ${
           genre === param
             ? "underline underline-offset-8 decoration-4 decoration-[#03b57b] rounded-lg"
             : ""
