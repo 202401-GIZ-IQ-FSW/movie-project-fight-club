@@ -15,10 +15,11 @@ export default function Header() {
       <Link href="/" className="flex items-center">
         <span className="text-2xl font-bold bg-[#03b57b] py-1 px-2 rounded-lg">
           Fight
-          <span className="text-xl hidden sm:inline text-[#03b57b] pt-3 pb-2 bg-[#323232] rounded-2xl p-1">
+          <span className="text-xl hidden sm:inline text-[#03b57b] pt-1 pb-1 ml-1 bg-[#323232] rounded-2xl p-1">
             Club
           </span>
         </span>
+        {/* <img className="h-20 rounded-full bg-[#03b57b]" src="/mainLogo.png" alt="logo" /> */}
       </Link>
       <div className="flex gap-4 items-center">
         <MenuItem title="Home" address="/" Icon={AiFillHome} param="home" />

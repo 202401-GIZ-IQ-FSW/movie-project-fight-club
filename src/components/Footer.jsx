@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer
-      className="text-[#323232] py-20 pb-3 px-40 relative z-10"
+      className="text-[#323232] py-20 pb-3 px-40 relative z-10 "
       style={{ backgroundImage: "url('/fog.jpg')", backgroundSize: "cover" }}
     >
       <div className="absolute inset-0 bg-gradient-to-b from-[#323232] to-transparent opacity-100"></div>
@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="container mx-auto pb-5 flex flex-col md:flex-row items-center justify-between">
           <span className="text-2xl font-bold bg-[#03b57b] py-1 px-2 rounded-lg">
             Fight
-            <span className="text-xl hidden sm:inline text-[#03b57b] pt-3 pb-2 bg-[#323232] rounded-2xl p-1">
+            <span className="text-xl hidden sm:inline text-[#03b57b] pt-1 pb-1 ml-1 bg-[#323232] rounded-2xl p-1">
               Club
             </span>
           </span>
